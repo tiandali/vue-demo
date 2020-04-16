@@ -44,8 +44,8 @@ export default {
     initChart() {
       this.chart = echarts.init(document.getElementById(this.id));
       this.chart.setOption({
-        backgroundColor: "#1D2024",
-        color: ["#199475", "#61a0a8", "#d48265", "#91c7ae", "#749f83"],
+        backgroundColor: "#02102D",
+        color: ["#13C6E2", "#61a0a8", "#d48265", "#91c7ae", "#749f83"],
         grid: {
           left: "10%",
           bottom: "20%"

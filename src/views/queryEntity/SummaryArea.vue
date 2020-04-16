@@ -51,8 +51,7 @@ export default {
   }
   .sub,
   p {
-    height: 320px;
-    // width: 325px;
+    height: 280px;
     margin-bottom: 20px;
     color: #999;
     font-size: 14px;

@@ -187,7 +187,7 @@ export default {
     }
 
     .login-select {
-      margin-left: 100px;
+      margin-left: 80px;
       margin-bottom: 13px;
 
       input {

@@ -6,11 +6,12 @@
     <div class="sideMenu">
       <el-menu
         router="true"
+        mode="horizontal"
         default-active="search"
         class="el-menu-vertical-demo"
         @open="handleOpen"
         @close="handleClose"
-        background-color="#1D2024"
+        background-color="#02102D"
         text-color="#fff"
         active-text-color="#ffd04b"
       >
@@ -69,14 +70,14 @@ export default {
 .iconStyle {
   width: 180px;
   height: 150px;
-  background: #1d2024;
+  background: #02102d;
   text-align: center;
   line-height: 150px;
   i {
     width: 26px;
     height: 30px;
     font-size: 26px;
-    color: #7ac231;
+    color: #13c6e2;
   }
 }
 .sideMenu {

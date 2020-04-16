@@ -48,18 +48,18 @@ export default {
       let max = 6;
       let min = 0;
       this.chart.setOption({
-        backgroundColor: "#1D2024",
+        backgroundColor: "#02102D",
         // color: ["#199475", "#61a0a8", "#d48265", "#91c7ae", "#749f83"],
         grid: {
           left: "5%",
           right: "5%"
         },
-        color: ["#7AC231"],
+        color: ["#13C6E2"],
         tooltip: {},
         radar: {
           name: {
             textStyle: {
-              color: "#7AC231"
+              color: "#13C6E2"
             },
             fontSize: 14
           },

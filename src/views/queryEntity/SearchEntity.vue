@@ -42,11 +42,11 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss">
 .searchMain {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 80px);
   display: flex;
   flex: 1;
   flex-direction: column;
-  background: #18191d;
+  background: #00071a;
   .inputContent {
     padding-top: 200px;
     margin: 0 auto;
@@ -64,7 +64,7 @@ export default {
     }
     .caseStyle {
       margin-right: 20px;
-      color: #fff;
+      color: #daf2f6;
     }
     i {
       font-size: 24px;

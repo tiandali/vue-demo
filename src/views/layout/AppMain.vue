@@ -31,7 +31,7 @@ export default {
 <style rel="stylesheet/scss" lang="scss">
 .app-main {
   /*84 = navbar + tags-view = 50 +34 */
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 80px);
   width: 100%;
   position: relative;
   // overflow: hidden;

@@ -1,6 +1,6 @@
 <template>
   <div class="app-wrapper">
-    <SideMenu class="sidebar-container" />
+    <!-- <SideMenu class="sidebar-container" /> -->
     <div :class="{hasTagsView:needTagsView}" class="main-container">
       <div class="fixed-header">
         <HeaderBar />
@@ -43,7 +43,7 @@ export default {
   flex-direction: column;
 
   .fixed-header {
-    height: 100px;
+    height: 80px;
     display: flex;
   }
 }

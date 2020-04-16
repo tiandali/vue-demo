@@ -4,34 +4,26 @@ export const menus = [
     path: "search",
     rightKey: "queryEntity",
     iconStyle: "el-icon-location",
-    // children: [
-    //   {
-    //     name: "电站监控",
-    //     iconStyle: "el-icon-location",
-    //     path: "station",
-    //     defaultPath: true,
-    //     rightKey: "monitor_station"
-    //   }
-    // ]
-  }, {
+  },
+  {
     name: "实体识别",
     path: "identifyEntity",
     rightKey: "queryEntity",
     iconStyle: "el-icon-menu",
-  }, {
+  },
+  {
     name: "知识概览",
     path: "knowledgeOverview",
     rightKey: "queryEntity",
     iconStyle: "el-icon-document",
-  }, {
+  },
+  {
     name: "知识问答",
     path: "quiz",
     rightKey: "queryEntity",
     iconStyle: "el-icon-setting",
-  }
-
+  },
 ];
-
 
 // menus: [
 //   {

@@ -1,12 +1,17 @@
 <template>
   <div class="headerStyle">
     <h2 class="text">{{title}}</h2>
+    <MenuBar />
     <div class="timeStyle">{{time+' 18℃ 多云'}}</div>
   </div>
 </template>
 <script>
+import MenuBar from "./MenuBar";
 export default {
   name: "HeaderBar",
+  components: {
+    MenuBar
+  },
   data() {
     return {
       title: "农业知识图谱",
@@ -24,7 +29,6 @@ export default {
       clearInterval(this.timer);
     }
   },
-
   created() {},
   methods: {}
 };
@@ -32,7 +36,7 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss">
 .headerStyle {
-  background: #18191d;
+  background: #0f1629;
   padding: 0 30px;
   display: flex;
   flex: 1;
@@ -44,11 +48,12 @@ export default {
     font-weight: 400;
     margin-left: 12px;
     color: #fff;
-    line-height: 100px;
+    line-height: 80px;
   }
+
   .timeStyle {
-    color: #7ac231;
-    line-height: 100px;
+    color: #13c6e2;
+    line-height: 80px;
     font-size: 12px;
   }
 }

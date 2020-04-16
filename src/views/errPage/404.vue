@@ -68,7 +68,7 @@ export default {
       }
       &.right {
         width: 62px;
-        top: 100px;
+        top: 80px;
         left: 500px;
         opacity: 0;
         animation-name: cloudRight;
@@ -123,7 +123,7 @@ export default {
       }
       @keyframes cloudRight {
         0% {
-          top: 100px;
+          top: 80px;
           left: 500px;
           opacity: 0;
         }
@@ -191,7 +191,7 @@ export default {
       width: 110px;
       height: 36px;
       background: #1482f0;
-      border-radius: 100px;
+      border-radius: 80px;
       text-align: center;
       color: #ffffff;
       opacity: 0;

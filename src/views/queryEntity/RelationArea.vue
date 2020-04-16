@@ -185,7 +185,7 @@ export default {
         }
       ];
       this.chart.setOption({
-        backgroundColor: "#1D2024",
+        backgroundColor: "#02102D",
         title: {
           text: "知识图谱"
         },

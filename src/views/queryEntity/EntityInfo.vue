@@ -1,10 +1,11 @@
 <template>
   <div class="infoMain">
-    <div class="searchArea">
-      <el-input v-model="sample" suffix-icon="el-icon-search" size="mini" @change="queryEntity"></el-input>
-    </div>
     <div class="infoContent">
       <div class="summaryArea">
+        <div class="searchArea">
+          <el-input v-model="sample" suffix-icon="el-icon-search" size="mini" @change="queryEntity"></el-input>
+        </div>
+
         <SummaryArea />
       </div>
       <div class="relationArea">
@@ -57,26 +58,14 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss">
 .infoMain {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 140px);
   display: flex;
   flex: 1;
   flex-direction: column;
   background: #18191d;
-  padding: 0 30px;
+  padding: 30px;
   .searchArea {
-    position: relative;
-    .el-input {
-      width: 200px;
-      // position: fixed;
-      position: absolute;
-      top: -60px;
-      left: 200px;
-      .el-input__inner {
-        background: #2a2b31;
-        color: #fff;
-        border: 0;
-      }
-    }
+    margin-bottom: 20px;
   }
   .infoContent {
     display: flex;
