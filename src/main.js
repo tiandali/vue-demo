@@ -7,6 +7,7 @@ import App from "./App.vue";
 import store from "./store";
 import router from "./router";
 import "./styles/common.scss";
+import "./assets/iconfont/iconfont.css";
 Vue.use(Element);
 router.beforeEach((to, from, next) => {
   console.log("to: ", to);

@@ -3,25 +3,25 @@ export const menus = [
     name: "实体查询",
     path: "search",
     rightKey: "queryEntity",
-    iconStyle: "el-icon-location",
+    iconStyle: "iconfont iconziyuan1",
   },
   {
     name: "实体识别",
     path: "identifyEntity",
     rightKey: "queryEntity",
-    iconStyle: "el-icon-menu",
+    iconStyle: "iconfont iconziyuan2",
   },
   {
     name: "知识概览",
     path: "knowledgeOverview",
     rightKey: "queryEntity",
-    iconStyle: "el-icon-document",
+    iconStyle: "iconfont iconziyuan4",
   },
   {
     name: "知识问答",
     path: "quiz",
     rightKey: "queryEntity",
-    iconStyle: "el-icon-setting",
+    iconStyle: "iconfont iconziyuan5",
   },
 ];
 

@@ -68,6 +68,9 @@ export default {
     padding: 0 40px;
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
+    i {
+      margin-right: 8px;
+    }
   }
   .is-active {
     border-top: 2px solid #13c6e2;

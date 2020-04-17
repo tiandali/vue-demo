@@ -43,7 +43,7 @@ export default {
       padding: 8px;
       margin-right: 20px;
       margin-bottom: 10px;
-      background: #3a3c43;
+      background: #c52275;
       font-size: 12px;
       font-family: Source Han Sans CN;
       border-radius: 2px;
